@@ -38,7 +38,7 @@
 - Total_Trans_Amt: <i>int</i>, 12개월 동안의 총 거래금액
 - Total_Trans_Ct: <i>int</i>, 12개월 동안의 총 거래건수
 - Total_Ct_Chng_Q4_Q1: <i>float</i>,	1분기 대비 4분기 거래건수 비율
-- Avg_Utilization_Ratio : <i>float</i>,
+- Avg_Utilization_Ratio : <i>float</i>, 평균 카드 이용률
 </code></pre>
 
 #### **데이터 불러오기**
