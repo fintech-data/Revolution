@@ -3,8 +3,7 @@
 ### **#1 보건 의료 데이터**
 
 
-<pre><code>
-- age	: 나이
+<pre><code>- age	: 나이
 - sex	: 성별
 - bmi	: BMI지수
 - children : 자녀 수
@@ -13,15 +12,13 @@
 - charges : 보험료
 </code></pre>
 
-** 데이터 불러오기 
-<pre><code>
-bank_customers = pd.read_csv('https://raw.githubusercontent.com/fintech-data/Revolution/main/data/Bank_customers_data.csv')
+** 데이터 불러오기 **
+<pre><code>bank_customers = pd.read_csv('https://raw.githubusercontent.com/fintech-data/Revolution/main/data/Bank_customers_data.csv')
 </code></pre>
 
 ### **#2 계좌 정보 데이터**
 
-<pre><code>
-- CLIENTNUM : 고객번호
+<pre><code>- CLIENTNUM : 고객번호
 - Attrition_Flag : 현재 상태
 - Customer_Age : 고객 연령
 - Gender : 결혼여부
@@ -43,15 +40,13 @@ bank_customers = pd.read_csv('https://raw.githubusercontent.com/fintech-data/Rev
 - Total_Ct_Chng_Q4_Q1 : 	1분기 대비 4분기 거래건수 비율
 </code></pre>
 
-** 데이터 불러오기 
-<pre><code>
-direct_marketimg = pd.read_csv('https://raw.githubusercontent.com/fintech-data/Revolution/main/data/DirectMarketing.csv')
+** 데이터 불러오기 **
+<pre><code>direct_marketimg = pd.read_csv('https://raw.githubusercontent.com/fintech-data/Revolution/main/data/DirectMarketing.csv')
 </code></pre>
 
 ### #3. 다이렉트 마케팅 데이터
 
-<pre><code>
-- Age	 : 나이
+<pre><code>- Age	 : 나이
 - Gender : 성별
 - OwnHome : 주택보유여부(자가/임대)
 - Married	: 결혼여부
@@ -63,15 +58,13 @@ direct_marketimg = pd.read_csv('https://raw.githubusercontent.com/fintech-data/R
 - **AmountSpent : 연간 쇼핑몰 이용액**
 </code></pre>
 
-** 데이터 불러오기 
-<pre><code>
-insurance = pd.read_csv('https://raw.githubusercontent.com/fintech-data/Revolution/main/data/insurance.csv')
+** 데이터 불러오기 **
+<pre><code>insurance = pd.read_csv('https://raw.githubusercontent.com/fintech-data/Revolution/main/data/insurance.csv')
 </code></pre>
 
 ### **#4 건강보험 및 신용 데이터**
 
-<pre><code>
-- Agency	: 보험 판매점
+<pre><code>- Agency	: 보험 판매점
 - Agency Type	: 판매점 형태
 - Distribution Channel : 판매 채널
 - Product Name	Claim :  판매 상품 종류
@@ -83,7 +76,6 @@ insurance = pd.read_csv('https://raw.githubusercontent.com/fintech-data/Revoluti
 - Age : 나이
 </code></pre>
 
-** 데이터 불러오기 
-<pre><code>
-travel_insurance = pd.read_csv("https://raw.githubusercontent.com/fintech-data/Revolution/main/data/travel%20insurance.csv")
+** 데이터 불러오기 **
+<pre><code>travel_insurance = pd.read_csv("https://raw.githubusercontent.com/fintech-data/Revolution/main/data/travel%20insurance.csv")
 </code></pre>
