@@ -3,7 +3,7 @@
 ### **#1 보건 의료 데이터**
 
 
-<pre><code>{
+<pre><code>
 - age	: 나이
 - sex	: 성별
 - bmi	: BMI지수
@@ -11,16 +11,16 @@
 - smoker : 흡연여부
 - region : 사는 지역
 - charges : 보험료
-}</code></pre>
+</code></pre>
 
 ** 데이터 불러오기 
-<pre><code>{
+<pre><code>
 bank_customers = pd.read_csv('https://raw.githubusercontent.com/fintech-data/Revolution/main/data/Bank_customers_data.csv')
-}</code></pre>
+</code></pre>
 
 ### **#2 계좌 정보 데이터**
 
-<pre><code>{
+<pre><code>
 - CLIENTNUM : 고객번호
 - Attrition_Flag : 현재 상태
 - Customer_Age : 고객 연령
@@ -41,16 +41,16 @@ bank_customers = pd.read_csv('https://raw.githubusercontent.com/fintech-data/Rev
 - Total_Trans_Amt : 12개월 동안의 총 거래금액
 - Total_Trans_Ct	: 12개월 동안의 총 거래건수
 - Total_Ct_Chng_Q4_Q1 : 	1분기 대비 4분기 거래건수 비율
-}</code></pre>
+</code></pre>
 
 ** 데이터 불러오기 
-<pre><code>{
+<pre><code>
 direct_marketimg = pd.read_csv('https://raw.githubusercontent.com/fintech-data/Revolution/main/data/DirectMarketing.csv')
-}</code></pre>
+</code></pre>
 
 ### #3. 다이렉트 마케팅 데이터
 
-<pre><code>{
+<pre><code>
 - Age	 : 나이
 - Gender : 성별
 - OwnHome : 주택보유여부(자가/임대)
@@ -61,16 +61,16 @@ direct_marketimg = pd.read_csv('https://raw.githubusercontent.com/fintech-data/R
 - History : 회원가입연수 (5년 이상 : high,   2~5년 : Middle,  1년 이내 : Low)
 - Mailing : 쇼핑몰 뉴스레터 발송횟수
 - **AmountSpent : 연간 쇼핑몰 이용액**
-}</code></pre>
+</code></pre>
 
 ** 데이터 불러오기 
-<pre><code>{
+<pre><code>
 insurance = pd.read_csv('https://raw.githubusercontent.com/fintech-data/Revolution/main/data/insurance.csv')
-}</code></pre>
+</code></pre>
 
 ### **#4 건강보험 및 신용 데이터**
 
-<pre><code>{
+<pre><code>
 - Agency	: 보험 판매점
 - Agency Type	: 판매점 형태
 - Distribution Channel : 판매 채널
@@ -81,9 +81,9 @@ insurance = pd.read_csv('https://raw.githubusercontent.com/fintech-data/Revoluti
 - Commision (in value) : 수수료
 - Gender : 성별
 - Age : 나이
-}</code></pre>
+</code></pre>
 
 ** 데이터 불러오기 
-<pre><code>{
+<pre><code>
 travel_insurance = pd.read_csv("https://raw.githubusercontent.com/fintech-data/Revolution/main/data/travel%20insurance.csv")
-}</code></pre>
+</code></pre>
